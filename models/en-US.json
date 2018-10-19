@@ -1,0 +1,135 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "capital city quiz",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "CancelPurchaseIntent",
+          "samples": [
+            "cancel my purchase",
+            "return my hints",
+            "cancel transaction",
+            "stop purchase"
+          ]
+        },
+        {
+          "name": "BuyLifeIntent",
+          "samples": [
+            "purchase one life",
+            "purchase life",
+            "get me a life",
+            "get a life",
+            "buy a life",
+            "buy another life"
+          ]
+        },
+        {
+          "name": "capitalCityIntent",
+          "slots": [
+            {
+              "name": "city",
+              "type": "answerCity"
+            }
+          ],
+          "samples": [
+            "the capital is {city}",
+            "{city} is the capital",
+            "it is {city}",
+            "{city}",
+            "the answer is {city}",
+            "answer is {city}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "let's start",
+            "start",
+            "i'm ready",
+            "ready"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ankara"
+              }
+            },
+            {
+              "name": {
+                "value": "canberra"
+              }
+            },
+            {
+              "name": {
+                "value": "madrid"
+              }
+            },
+            {
+              "name": {
+                "value": "seoul"
+              }
+            },
+            {
+              "name": {
+                "value": "havana"
+              }
+            },
+            {
+              "name": {
+                "value": "ottawa"
+              }
+            },
+            {
+              "name": {
+                "value": "berlin"
+              }
+            },
+            {
+              "name": {
+                "value": "jakarta"
+              }
+            },
+            {
+              "name": {
+                "value": "london"
+              }
+            },
+            {
+              "name": {
+                "value": "new delhi",
+                "synonyms": [
+                  "delhi"
+                ]
+              }
+            }
+          ],
+          "name": "answerCity"
+        }
+      ]
+    }
+  }
+}

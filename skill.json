@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "A skill to test the knowledge of capital cities across the world.",
+          "examplePhrases": [
+            "Alexa open capital city quiz",
+            "Alexa start capital city quiz",
+            "Alexa play capital city quiz"
+          ],
+          "name": "Capital City Quiz",
+          "description": "A skill to test the knowledge of capital cities across the world."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "nothing specific",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/us-east-1_ask-custom-capital-quiz-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "capital-city-quiz",
+  "version": "1.0.0",
+  "description": "A skill to demo consumables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Jha",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk": "^2.1.0"
+  }
+}

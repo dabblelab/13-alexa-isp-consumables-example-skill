@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "type": "CONSUMABLE",
+  "referenceName": "One_Life",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "One Life",
+        "summary": "An extra life to continue the game",
+        "description": "An extra life to continue the game",
+        "smallIconUri": "https://s3.amazonaws.com/wuproof/ISP_SMALL.png",
+        "largeIconUri": "https://s3.amazonaws.com/wuproof/ISP_BIG.png",
+        "examplePhrases": [
+          "Alexa, buy one life",
+          "Alexa, buy extra life",
+          "Alexa, buy life"
+        ],
+        "keywords": [
+          "games"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "An extra life will help you continue the game when you can't answer one correctly.",
+          "boughtCardDescription": "You survived this time. Continue with the game."
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2018-09-10T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "https://getstoryline.com/public/privacy.html"
+      }
+    }
+  },
+  "testingInstructions": "You can use this product when you can't answer one correctly and need another life to continue with the game and maintain the streak instead of starting over.",
+  "purchasableState": "PURCHASABLE"
+}
