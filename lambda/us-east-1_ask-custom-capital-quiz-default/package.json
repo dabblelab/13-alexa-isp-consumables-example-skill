@@ -9,6 +9,6 @@
   "author": "Ashish Jha",
   "license": "ISC",
   "dependencies": {
-    "ask-sdk": "^2.1.0"
+    "ask-sdk": ">=2.814.0"
   }
 }
